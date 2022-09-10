@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 28px 0;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.header__logo-img {
+  margin-right: 10px;
+}
+
+.header__menu {
+  margin-right: 18em;
+}
+
+.header__link {
+  margin: 0 22px;
+  color: var(--light-gray);
+  text-decoration: none;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__buttons-login {
+  margin-right: 2em;
+  text-decoration: none;
+  color: var(--light-gray);
+
+}
+
+.header__buttons-signup {
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 8px;
+  border: none;
+  width: 112px;
+  height: 44px;
+  cursor: pointer;
+}

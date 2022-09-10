@@ -1,0 +1,15 @@
+:root {
+  --main-font: "Inter";
+  --white: #FFFFFF;
+  --gray: #3A404E;
+  --light-gray: #667085;
+  --dark-gray: #101828;
+  --red: #8E2424;
+}
+
+.App {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--white);
+}

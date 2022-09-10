@@ -1,0 +1,27 @@
+.about {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.about__title{
+  color: var(--red);
+  font-weight: 600;
+  margin: 24px 0;
+}
+
+.about__question {
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--dark-gray);
+  margin: 24px 0;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--light-gray);
+  margin: 24px 0;
+}
