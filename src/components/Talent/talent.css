@@ -1,0 +1,32 @@
+.talent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.talent__title {
+  display: flex;
+  color: var(--red);
+  font-size: 14px; 
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  height: 2em;
+  width: 9em;
+  align-items: center;
+  justify-content: center;
+}
+
+.talent__title-2 {
+  color: var(--dark-gray);
+  font-size: 36px;
+  font-weight: 600;
+  margin: 1em 1em;
+}
+
+.talent__content {
+  color: var(--light-gray);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 4em;
+}

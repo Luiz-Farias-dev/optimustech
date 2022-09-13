@@ -1,0 +1,48 @@
+.talk {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin-top: 5em;
+  align-items: center;
+}
+
+.talk__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  background: rgba(196, 25, 25, 0.03);
+  padding: 2em;
+  border-radius: 16px;
+}
+
+.talk__title{
+  font-size: 14px;
+  color: var(--red);
+  font-weight: 600;
+  margin-bottom: 1.5em;
+}
+
+.talk__title-2 {
+  font-size: 36px;
+  color: var(--dark-gray);
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.talk__avatar{
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1em;
+}
+
+.talk__name {
+  color: var(--dark-gray);
+  margin-bottom: 1em;
+}
+
+.talk__job {
+  font-size: 14px;
+  color: var(--light-gray);
+  font-weight: 400;
+}

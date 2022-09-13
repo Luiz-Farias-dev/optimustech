@@ -1,0 +1,38 @@
+.vacancies {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.vacancies__title {
+  font-size: 20px;
+  color: var(--dark-gray);
+}
+
+.vacancies__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #EAECF0;
+  width: 50vw;
+  height: 5em;
+  margin: 2em 2em;  
+  border-radius: 16px;
+  padding: 1.5em 1.5em;
+}
+
+.vacancies__box-title {
+  font-size: 18px;
+  color: var(--dark-gray);
+}
+
+.vacancies_box-detail {
+  color: var(--light-gray);
+  margin-right: 2em;
+}
+
+.vacancies_box-detail-container {
+  display: flex;
+}
